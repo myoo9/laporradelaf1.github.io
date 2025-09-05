@@ -1,0 +1,1 @@
+let: onclick(location.href)

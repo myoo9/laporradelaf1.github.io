@@ -1,0 +1,26 @@
+/**FONTS**/
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+/**STYLE**/
+body{
+    padding: 0 0 0 0 ;
+    margin: 0 0 0 0 ;
+    background-color: rgb(21, 21, 31) ;
+}
+
+#upperlogo{
+    height: 10ch;
+    width: 20ch;
+}
+
+ul{
+    list-style-type: none;
+}
+
+#nav-buttons{
+    text-decoration: none;
+    border-style: none;
+    border-color: none;
+    color: white;
+}

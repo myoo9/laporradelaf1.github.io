@@ -1,24 +1,53 @@
-/**FONTS**/
+/**FUENTES**/
 
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+/**
+Open-Sans config
 
-/**STYLE**/
+.open-sans-<uniquifier> {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+**/
+
+/**ESTILOS**/
+
+/**ESTILO PREDETERMINADO**/
+a{
+    color: black;
+    text-decoration: none;
+}
+
 body{
     padding: 0 0 0 0 ;
     margin: 0 0 0 0 ;
     background-color: rgb(21, 21, 31) ;
 }
 
+ul{
+    list-style-type: none;
+}
+
+
+/**ESTILO ESPECIFICO**/
 #upperlogo{
     height: 10ch;
     width: 20ch;
 }
 
-ul{
-    list-style-type: none;
+#navbar{
+    text-align: center;
 }
 
-#nav-buttons{
+
+#nav-button{
+    font-family: "Open-Sans", sans-serif;
+    font-optical-sizing: auto;
     text-decoration: none;
     border-style: none;
     border-color: none;

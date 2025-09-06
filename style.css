@@ -29,7 +29,7 @@ body{
     background-color: rgb(21, 21, 31) ;
     font-family: "Open Sans", sans-serif;
     font-optical-sizing: auto;
-    font-weight: 400;
+    font-weight: 500;
     font-style: normal;
     color: white;
 }
@@ -71,7 +71,20 @@ button{
 
 .nav-button:hover{
     background-color: rgb(28, 28, 41);
-    text-decoration:underline;
-    box-decoration-break: slice;
+    border-style: solid;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-color: white;
+    border-width: 1px;
 }
 
+#presentaciones{
+    border-left-color: white;
+    border-left: solid;
+    border-left-width: 3px;
+}
+
+#inpresentaciones{
+    margin: 0 0 0 2ch;
+}

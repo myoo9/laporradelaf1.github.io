@@ -25,31 +25,53 @@ a{
 
 body{
     padding: 0 0 0 0 ;
-    margin: 0 0 0 0 ;
+    margin: 2ch 5ch 0 5ch ;
     background-color: rgb(21, 21, 31) ;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
 }
 
 ul{
     list-style-type: none;
 }
 
+button{
+    border-style: none;
+    background-color: transparent;
+}
 
 /**ESTILO ESPECIFICO**/
 #upperlogo{
     height: 10ch;
     width: 20ch;
+    margin: 0 0 0 0;
 }
 
 #navbar{
-    text-align: center;
+    display:inline-flex;
+    max-height: 10ch;
+    width: 100%;
+    border-style: solid;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    border-width: 0.15ch;
+    border-color: rgb(94, 94, 94);
 }
 
-
-#nav-button{
-    font-family: "Open-Sans", sans-serif;
-    font-optical-sizing: auto;
-    text-decoration: none;
-    border-style: none;
-    border-color: none;
-    color: white;
+.nav-button{
+    min-height: 10ch;
+    color: rgb(255, 255, 255);
+    padding: 0 5ch 0 5ch;
+    transition: 0.25s;
 }
+
+.nav-button:hover{
+    background-color: rgb(28, 28, 41);
+    text-decoration:underline;
+    box-decoration-break: slice;
+}
+
